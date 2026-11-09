@@ -18,6 +18,6 @@ Website for Island Shop Central Coast (Toukley, NSW): $10 Tonga, Samoa, Māori a
 - `assets/og/`: 1200×630 link-preview images, one per page
 
 Static site, no build step. Deploy on Vercel (`vercel.json` turns on clean URLs).
-OG tags use `https://island-show.vercel.app`. If the site goes on a different domain, replace that address in the 7 HTML files, `robots.txt` and `sitemap.xml`.
+Live at https://island-show.nexlyr.solutions (OG tags, canonical links, robots.txt and sitemap.xml use this address).
 
 Built by Nexlyr Solutions.
