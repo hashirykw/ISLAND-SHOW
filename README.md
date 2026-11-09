@@ -2,9 +2,22 @@
 
 Website for Island Shop Central Coast (Toukley, NSW): $10 Tonga, Samoa, Māori and NZ tees, flags, NZ seafood drops and baby preorders.
 
-- `index.html`: the whole site (HTML, CSS and JS in one file)
-- `assets/`: product cutouts, baby photos, seafood and logo
+## Pages
+- `index.html`: home (preloader, 3D sunset island, links to every page)
+- `wardrobe.html`: 3D clothing rail with all 20 tees, size picker, add to order
+- `flags.html`: 3D waving flag pole (Samoa, Māori, NZ, Tonga sold out)
+- `seafood.html`: SUNZ tubs, smoked kahawai, how pre-paid drops work
+- `little-ones.html`: baby preorders
+- `order.html`: order list, sent as one text or copied for an Instagram DM
+- `visit.html`: Toukley, contact, map
 
-Static site with no build step. Deploy the repo root on Vercel.
+## Shared files
+- `assets/css/site.css`: all styles
+- `assets/js/app.js`: all behaviour (menu, dock, chat, order list, 3D scenes)
+- `assets/img/`: product cutouts, babies, seafood, flags, logo
+- `assets/og/`: 1200×630 link-preview images, one per page
+
+Static site, no build step. Deploy on Vercel (`vercel.json` turns on clean URLs).
+OG tags use `https://island-show.vercel.app`. If the site goes on a different domain, replace that address in the 7 HTML files, `robots.txt` and `sitemap.xml`.
 
 Built by Nexlyr Solutions.

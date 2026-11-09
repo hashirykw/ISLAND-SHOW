@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://island-show.vercel.app/sitemap.xml
